@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background: #f0f0f0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+
+}
+main{
+    width:100%;
+    max-width: 500px;
+    min-height: 400px;
+    background: white;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.budget-container{
+    padding: 20px;
+    position: relative;
+}
+h1{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.title{
+    margin: 5px 0px;
+    font-size: 14px;
+}
+.budget-container p{
+    display: block;
+}
+.sum{
+    position: relative;
+}
+#logo1{
+    position: absolute;
+    left: 8px;
+    bottom: 16px;
+    width: 20px;
+    height: 19px;
+}
+.sum p{
+    margin: 5px 0px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#income{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+    text-align: center;
+    background: #313131;
+    color: #ffff;
+    border: 0;
+    outline: 0;
+}
+.others{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.07);
+}
+.others p{
+    font-size: 13px;
+    font-weight: 500;
+}
+#expense{
+    color: red;
+    font-size: 16px;
+}
+#balance{
+    color: #168e16;
+    font-size: 16px;
+
+}
+
+.others input{
+    width: 100px;
+    height: 35px;
+    outline: 0;
+    border: 0;
+}
+
+.expense-item  button{
+    height: 25px;
+    margin:0px 3px;
+    width: 25px;
+    border-radius: 20px;
+    
+}
+.title{
+    font-weight: 600;
+}
+.transaction-item{
+    background: #f2f3f4;
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px;
+    margin-right: 4px;
+    border-radius: 8px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+
+.delete{
+    position: absolute;
+    right:70px;
+    background-color: #e01414;
+    border: 0;
+}
+.delete:hover{
+    background: #e86d6d;
+}
+.delete-icon{
+    width: 10px;
+}
+.item-name{
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.item-amount{
+    font-weight: 600;
+    font-size: 15px;
+}
+.transaction-container{
+    width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.input-box{
+    padding: 10px;
+    width: 100%;
+    max-width:80%;
+}
+.input-box p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.input-box input{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding:10px 15px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #232222;
+}
+.add{
+    display: block;
+    margin: 10px 0px;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    background:#a20be3;
+}
+.add:active{
+    background: #810fb3;
+}
+@media screen and (min-width:1000px) {
+    #income{
+        text-align: right;
+    }
+    #logo1{
+        left: 14px;
+    }
+}
+
+@media screen and (max-width:400px){
+    main{
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+        padding: 10px;
+    }
+    .delete{
+        right: 40px;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker</title>
+</head>
+<body>
+    <main>
+        <div class="budget-container">
+        <h1>Budget Tracker</h1>
+        <div class="sum">
+            <p>TOTAL INCOME</p>
+            <input type="number" id="income" placeholder="0">
+            <img src="naira white.png" alt="" id="logo1">
+        </div>
+          <div class="others">
+            <div class="total-expenses">
+                <p>EXPENSE</p>
+                <input type="number" id="expense">
+            </div>
+            <hr>
+            <div class="balance">
+                <p>BALANCE</p>
+                <input type="number" id="balance">
+            </div>
+          </div>  
+          
+
+            <p class="title">My Expenses</p>
+            </ul>
+            <div class="expense-item">
+               
+                </div>
+               
+            </div>
+        </div>
+        
+        <div class="transaction-container">
+            <div class="input-box">
+                <p>New Transaction</p>
+            <input type="text" id="new-expense" placeholder="Expense">
+            <input type="number" id="amount" placeholder="Amount">
+            <button class="add" onclick="addTransaction()">Add Transaction</button>
+        </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
