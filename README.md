@@ -20,8 +20,8 @@ by adding and editing total income, add expenses and delete expenses and see cal
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [(https://github.com/Tolulope-as/budget-tracker.git]
+- Live Site URL: [(https://github.com/Tolulope-as/budget-tracker.git)]
 
 ## My process
 - I had to first go over the project multiple times to understand what was the aim and what i needed to do.
