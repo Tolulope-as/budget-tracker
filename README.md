@@ -21,7 +21,7 @@ by adding and editing total income, add expenses and delete expenses and see cal
 ### Links
 
 - Solution URL: [(https://github.com/Tolulope-as/budget-tracker.git]
-- Live Site URL: [(https://github.com/Tolulope-as/budget-tracker.git)]
+- Live Site URL: [(https://tolu-budget-tracker.vercel.app/)]
 
 ## My process
 - I had to first go over the project multiple times to understand what was the aim and what i needed to do.
